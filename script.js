@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
   // Fade-in on scroll
   const fadeEls = document.querySelectorAll('.fade-in-on-scroll, .section-title');
