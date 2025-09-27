@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
   // Fade-in on scroll
   const fadeEls = document.querySelectorAll('.fade-in-on-scroll, .section-title');
@@ -33,5 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
       target.scrollIntoView({ behavior: "smooth" });
     }
   }
+
+  
+  const header = document.querySelector('header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
 
 });
