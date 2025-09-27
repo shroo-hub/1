@@ -633,7 +633,7 @@ html {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 12.16rem;
   flex-wrap: wrap;
 }
 .service-row.reverse {
@@ -641,8 +641,8 @@ html {
 }
 .service-row img {
   flex: 1;
-  max-width: 500px;
-  height: 300px;
+  max-width: 514px;
+  height: 316px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -809,3 +809,4 @@ nav ul {
 .card:hover::before {
   background-color: rgba(0, 119, 204, 0.7);
 }
+
